@@ -1,0 +1,49 @@
+.row{
+    display: flex;
+    padding-left: 30px;
+}
+.row_posters{
+    margin-left: 50px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+.row_posters::-webkit-scrollbar{
+    display: none;
+}
+.row_poster{
+    margin: 20px;
+    padding-left: 10px;
+    width: 200px;
+    height: 200px;
+    transition: transform 350ms;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.row_poster:hover{
+    transform: scale(1.08);
+}
+.row .Search{
+    margin-top: 50px;
+}
+.row .Search h4{
+    padding-bottom: 40px;
+}
+.row .Search .SearchItems{
+    display: flex;
+    align-items: center;
+
+}
+.row .Search .SearchItems button{
+    width: 80px;
+    height: 30px;
+    border: 1px solid rgb(150, 43, 43);
+    color: beige;
+    background: #FE5959;
+}
+.row .Search .SearchItems input{
+       width: 150px;
+       height: 30px;
+       border: 1px solid rgb(150, 43, 43);
+       background: #359AF2;
+}
